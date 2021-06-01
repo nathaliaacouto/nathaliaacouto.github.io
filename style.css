@@ -1,0 +1,20 @@
+h2 {
+    color: rgb(255, 255, 255);
+}
+body {
+    background-color: rgb(95, 167, 195);
+}
+p{
+    color:rgb(255, 255, 255)
+}
+.table {
+    background-color: rgb(57, 156, 198);
+}
+tr{
+    color: white;
+}
+
+.post {
+    background-color: rgb(57, 156, 198);
+    border: 3px solid white;
+}
