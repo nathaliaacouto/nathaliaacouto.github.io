@@ -1,22 +1,54 @@
 /**95, 167, 195 // 57, 156, 198 //18, 38, 75 */
 
-h2 {
+h1 {
     color: rgb(255, 255, 255);
+    text-align: center;
 }
+
+h2{
+    color: white;
+}
+
 body {
     background-color: rgb(95, 167, 195);
+    max-width: 900px;
+    margin: auto;
 }
+
 p{
     color:rgb(255, 255, 255)
 }
+
 .table {
     background-color: rgb(57, 156, 198);
 }
+
 tr{
+    color: white;
+}
+
+a {
     color: white;
 }
 
 .post {
     background-color: rgb(57, 156, 198);
-    border: 3px solid white;
+    border: 2px solid white;
+}
+
+.photo {
+    text-align: center;
+}
+
+.detail {
+    color: white;
+}
+
+.subtitle {
+    color: white;
+    text-align: center;
+}
+
+ul {
+    color: white;
 }
