@@ -1,4 +1,4 @@
 # nathaliaacouto.github.io
-Acompanhe meu website enquanto estudo mais sobre HTML, CSS e Java 💻; lá você também pode encontrar outros projetos nessa área, como o Catgram 🐈, que já está com o código disponível aqui no Github 
+Acompanhe meu website enquanto estudo mais sobre HTML, CSS e Java 💻; já estou importando outros projetos meus para lá, como o Catgram, que já estão com o código disponível aqui na minha página do Github 
 
-https://nathaliaacouto.github.io/index2.html/Index.HTML
+nathaliaacouto.github.io/website/index.html
