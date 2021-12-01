@@ -1,0 +1,77 @@
+:root{
+    --rosa: #FFACEC;
+    --azul: #203572;
+    --bege: #f7ebeb;
+    --size: 20px;
+}
+
+body{
+    align-items: center;
+    background-color: var(--bege);
+    margin: 10px;
+    color:var(--azul);
+    font-family: DejaVu Sans Mono, monospace;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--azul);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--rosa);
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 5px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: var(--bege);
+}
+
+.img-nat{
+    float: right;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: var(--rosa);
+}
+
+.sobre-mim {
+    width: 60%;
+    font-size: 15px;
+}
+
+.educacao {
+    width: 80%;
+}
+
+.collum {
+    float: left;
+}
+
+.txt-hab {
+    margin-right: 40px;
+}
+
+.habilidades {
+    overflow: hidden;
+}
+
+.github:hover {
+    color: var(--rosa);
+}
