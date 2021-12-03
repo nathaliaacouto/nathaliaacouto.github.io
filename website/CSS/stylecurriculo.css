@@ -44,6 +44,14 @@ li a:hover {
     color: var(--bege);
 }
 
+.nome {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
 .img-nat{
     float: right;
     margin-top: 10px;
@@ -51,13 +59,14 @@ li a:hover {
     border-color: var(--rosa);
 }
 
-.sobre-mim {
+.sobre-txt {
     width: 60%;
     font-size: 15px;
 }
 
-.educacao {
+.educacao-txt {
     width: 80%;
+    font-size: 15px;
 }
 
 .collum {
@@ -74,4 +83,8 @@ li a:hover {
 
 .github:hover {
     color: var(--rosa);
+}
+
+.dev {
+    text-align: center;
 }
