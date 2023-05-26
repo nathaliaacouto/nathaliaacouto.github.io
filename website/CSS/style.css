@@ -1,21 +1,29 @@
 :root{
-    --rosa: #FFACEC;
+    --rosa: #ffe3f1;
     --azul: #203572;
-    --bege: #f7ebeb;
+    --cinza: #f3f3f3;
 }
 
 body{
     align-items: center;
-    background-color: var(--bege);
-    margin: 10px;
-    color:var(--azul);
-    font-family: DejaVu Sans Mono, monospace;
+    background-color: white;
+    margin: 0px 50px;
+    color: black;
+    font-family: 'Epilogue';
 }
 
-/**barra de navegação*/
+main {
+    background-color: var(--rosa);
+}
+
+/* barra de navegação */
+nav {
+    background-color: white;
+}
+
 a{
     text-decoration: none;
-    color: var(--azul);
+    color: black;
 }
 
 ul {
@@ -27,7 +35,7 @@ ul {
 }
 li {
     display: inline;
-    float: left;
+    float: right;
 }
 
 li a {
@@ -38,43 +46,72 @@ li a {
 }
 
 li a:hover {
-    color: var(--bege);
+    text-decoration: underline;
 }
-/**barra de navegação*/
+/*barra de navegação*/
 
-.inicio{
-    display: inline-block;
-    margin-top: 10px;
+.container {
+    display: flex;
+    justify-content: space-between;
 }
 
-.imagemnat{
-    float: left;
+.me-bio {
+    padding: 100px 300px;
+}
+
+.img-me {
+    margin-right: 50px;
+}
+
+#imagemnat{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
     margin-right: 10px;
-    border-style: solid;
+    border: solid 1.5px black;
+}
+
+#titulo {
+    width: 150px;
+}
+
+.bio {
+    padding-top: 50px;
+}
+
+hr {
+    background-color: var(--rosa);
     border-color: var(--rosa);
 }
 
-.imagem{
-    margin-right: 10px;
-    border: 2px solid var(--rosa);
+.form-ipt {
+    width: 400px;
+    height: 35px;
+    border: none;
+    padding: 10px;
+    background-color: var(--cinza);
+    margin-bottom: 10px;
 }
 
-.imagem:hover {
-    border: 2px solid var(--azul);
+.form-text {
+    width: 400px;
+    height: 200px;
+    border: none;
+    padding: 10px;
+    background-color: var(--cinza);
+    margin-bottom: 10px;
 }
 
-.titulo{
-    float: left;
+.form-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    margin-bottom: 10px;
 }
 
-.dev{
-    align-items: center;
-}
-
-.contato{
-    font-size: 14px;
-}
-
-.projs{
-    font-size: 13px;
+.margin {
+    margin: 70px 0px;
 }
