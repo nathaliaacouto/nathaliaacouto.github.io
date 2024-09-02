@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="https://gw.alipayobjects.com/zos/antfincdn/4zAaozCvUH/unexpand.svg" />
 
-    <link rel="stylesheet" href="website/style.css"/>
+    <link rel="stylesheet" href="web/css/style.css"/>
     <link href='https://fonts.googleapis.com/css?family=Epilogue' rel='stylesheet'>
 
     <title>Meu Website</title>
@@ -14,126 +14,115 @@
     <header>
         <nav class="navbar">
             <ul>
-                <li style="float:left"><a class="navbar-brand" href="index.html"><b>NC</b></a></li>
-                <li><a class="navbar-brand" href="#contact">Contatos</a></li>
-                <li><a class="navbar-brand" href="#projects">Projetos</a></li>
-                <!--
-                <li><a class="navbar-brand" href="#about-me">Sobre</a></li>
-                -->
+                <li style="float: left;"><a class="navbar-brand"><b>NC</b></a></li>
+                <!-- <li><a class="navbar-brand" href="#about">English Version</a></li> -->
+                <li><a class="navbar-brand" href="#contact">Contato</a></li>
+                <li><a class="navbar-brand" href="#about">Sobre</a></li>
             </ul>
         </nav>
     </header>
-    
-    <main>
-        <div class="container me-bio">
-            <div class="img-me">
-                <div>
-                    <img id="imagemnat" src="website/IMG/nath.jpg" alt="Nathália" width="10%"/>
-                </div>
-                <div id="titulo">
-                    <h3><b><u>Nathália Couto</u></b></h3>
-                    <p>Estudante de <b>Ciências da Computação</b></p>
-                </div>
+
+    <div class="container">
+        <div class="first-container">
+            <div class="first-title">
+                <h1 class="title">HELLO,<br>WORLD!</h1>
             </div>
-            <div class="bio">
-                <p>Apaixonada por tecnologia desde cedo, entrei nesse mundo oficialmente à 2 anos, com 
-                    minha <b>graduação</b> em andamento na CESAR School. Atualmente, meu foco está em melhorar 
-                    meus conhecimentos de <b>frontend</b>, <b>python</b> e no meu lado <b>empreendedora</b>.</p>
+            <div class="my-image">
+                <img src="web/IMG/my-image.jpg" alt="My Image"/>
             </div>
         </div>
-    </main>
 
-    <!--
-    <div id="about-me" class="margin">
-        <div>
-            <h2>Sobre Mim</h2>
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
-        </div>
-    </div>
+        <div class="main-content">
+            <div id="about">
+                <div class="floating-elements">
+                    <div class="floating-left">
+                        <div class="about-me">
+                            <p>
+                                Olá, mundo! Meu nome é Nathália Couto. <br><br>
+                                Apaixonada por tecnologia desde cedo, entrei nesse mundo em 2020, com minha graduação de Ciências da Computação na CESAR School.
+                                <br>Em 2023, tive a incrível oportunidade de passar um ano em Porto, Portugal, onde pude expandir meus horizontes tanto pessoal quanto profissionalmente.<br> Atualmente, trabalho como desenvolvedora de software estagiária na Avantsoft, onde estou aplicando e aprimorando meus conhecimentos na prática.
+                                <br>Na área de computação, estou especialmente focada em estudar Ruby, Criptografia e Computação Quântica, áreas que considero fundamentais para o futuro da tecnologia. <br>Além disso, sou nível avançado em inglês e intermediário em espanhol, e recentemente iniciei meus estudos em francês, ampliando ainda mais minhas habilidades linguísticas.
+                            </p>
 
-    <hr>
-    -->
+                        </div>
+        
+                        <div class="qualifications">
+                            <h3>Eventos</h3>
+                            <b>Rec'n'Play</b>
+                            <p>Em 2022, tive a oportunidade de participar do Rec'n'Play em Recife, PE.
+                                Junto aos meus colaboradores de Iniciação Científica, fizemos um talk com o tema "Café com Bitcoin: a Lightning Network como solução das criptomoedas no uso comercial".
+                            </p>
 
-    <div id="projects" class="margin">
-        <div>
-            <h2>Meus Projetos</h2>
-        </div>
-        <div class="pj-petech">
-            <h3>A Petech</h3>
-            <p>A Petech é uma startup, criada por Mim e outros estudantes da CESAR School, 
-                que tem como principal objetivo ser uma plataforma simples para gerenciar os dados de pets.</p>
-                
-            <p>Se quiser saber mais sobre o nosso trabalho, clique <a href="https://petech.com.br/"><b>aqui</b></a> 
-                para ir ao website</p>
-        </div>
+                            <b>StartIt Berlim 2023</b>
+                            <p>Durante meu intercâmbio, fui para Berlim com a universidade para fazer parte do evento StartIt. 
+                                Por duas semanas, diversos alunos de 5 países diferentes se encontraram na universidade HTW Berlin
+                                para desenvolvedor uma aplicação voltada para melhorar o turismo na área. 
+                            </p>
 
-        <div class="pj-others">
-            <h3>Projetos Pessoais</h3>
-            <p>Estou me aprimorando na área de desenvolvimento web e já criei alguns websites com meus 
-                conhecimentos, esses podem ser acessados no meu github.</p>
-            <p>Também sou uma entusiata de outras áreas, como Design e Redes Sociais, já trabalhei 
-                com criação de posts e gerenciamento de conta.</p>
-        </div>
-    </div>
+                            <b>CESAR Tech Conference</b>
+                            <p>Tivemos um espaço no evento para falar um pouco sobre a Lightning Network e nosso projeto. 
+                            </p>
 
-    <hr>
+                        </div>
+                    </div>
 
-    <div id="contact" class="margin">
-        <div class="contact-info container">
-            <div>
-                <h2>Fale Comigo</h2>
-                <div>
-                    <p>Conheça meu linkedin e meu portifólio completo no github!</p>
-                    <p><b>Email: </b>nathaliavcouto@gmail.com</p>
+                    <div class="floating-right">
+                        <div class="social-media">
+                            <a class="social-media-item" href="https://github.com/nathaliaacouto" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+                            <a class="social-media-item" href="https://www.linkedin.com/in/nathalia-vcouto/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                            <a class="social-media-item" href="#contact"><i class="fa-solid fa-envelope fa-2xl"></i></i></a>
+                        </div>
+
+                        <div class="programming-languages">
+                            <img src="web/IMG/c-programming-logo.png" alt="C programming logo"/>
+                            <img src="web/IMG/ruby-programming-logo.png" alt="C programming logo"/>
+                            <img src="web/IMG/python-programming-logo.png" alt="C programming logo"/>
+                            <img src="web/IMG/javascript-programming-logo.png" alt="C programming logo"/>
+                        </div>
+                    </div>
                 </div>
-                <br>
-                <div>
-                    <a href="https://github.com/nathaliaacouto" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
-                    <a href="https://www.linkedin.com/in/nathalia-vcouto/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+
+                <div class="projects">
+                    <h3>Projetos</h3>
+                    <div class="project-text">
+                        <b>Iniciação Científica</b>
+                        <p>Em 2022, tive a chance de ser uma das colaboradoras de uma pesquisa voltada para a area de Bitcoin e sua camada da Lighting Network, desenvolvendo, junto aos meus colegas, o artigo científico "Um estudo comparativo de usabilidade entre o Pix e o Lightning Network para pagamentos instantâneos presenciais no varejo", que foi publicado pelo Banco Central do Brasil e pode ser acessado <a class="text-link" href="https://www.bcb.gov.br/conteudo/eventos/Documents/moedas_digitais/tokenizacao/WorkTOK-Mimeo-TECH_3B_A_a_Um_estudo_comparativo_de_usabilidade_entre_o_Pix_e_o_Lightning_Network_para_pagtos_instantaneos.pdf" target="_blank">aqui</a>.</p>
+                    </div>
+                    <div class="project-text">
+                        <b>Petech</b>
+                        <p>A Petech foi uma startup, criada por mim e outros estudantes da CESAR School, que tinha como principal objetivo ser uma plataforma simples para gerenciar os dados de pets. Iniciamos o projeto dentro da CESAR School e avançamos para além, sendo selecionados para fazer parte do Mind the Bizz, um programa de empreendedorismo e inovação voltado para negócios em early stage.</p>    
+                    </div>
+                    <div class="project-text">
+                        <b>Em Andamento...</b>
+                        <p>No momento, em preparação para o meu Trabalho de Conclusão de Curso (TCC), estou fazendo pesquisas na área de Criptografia Pós-Quântica e me aprofundando no estudo da tecnologia de Blockchain.</p>
+                    </div>
                 </div>
             </div>
 
-            <!--
-            <div>
-                <form action="enviarEmail.php" method="POST">
-                    <input class="form-ipt" type="text" name="nome" placeholder="Nome">
+            <div id="contact" class="contact-form">
+                <h3>Entre em contato comigo!</h3>
+                <form id="emailForm">
+                    <input type="text" class="form-input" id="name" name="name" placeholder="Nome">
+                    <input type="text" class="form-input" id="email" name="email" placeholder="E-mail">
+                    <textarea id="message" class="form-textarea" name="message" rows="8" cols="50" placeholder="Escreva a sua mensagem"></textarea>
                     <br>
-                    <input class="form-ipt" type="text" name="email" placeholder="Email">
-                    <br>
-                    <textarea class="form-text" id="story" name="mensagem" rows="5" cols="33" placeholder="Mensagem"> </textarea>
-                    <br>
-                    <input class="form-btn" type="submit" value="Enviar">
+                    <input class="submit-btn" type="submit" value="Enviar">
                 </form>
             </div>
-        -->
+            
         </div>
     </div>
-   
-    
-    <!-- DEPOIS 
-    <div class="projetos">
-        <h2>Projetos</h2>
-        <p>Clique na imagem para ser direcionado à página do github de cada trabalho</p>
-        <div class="img-proj">
-            <a href="https://github.com/nathaliaacouto/catgram" target="_blank"><img class="imagem" src="IMG/catgram.jpg" alt="Nathália" width="30%"/></a>
-            <a href="https://github.com/nathaliaacouto/jogodacobrinha" target="_blank"><img class="imagem" src="IMG/cobrinha.jpg" alt="Nathália" width="31%"/></a>
-            <a href="https://github.com/nathaliaacouto/Loveflix" target="_blank"><img class="imagem" src="IMG/loveflix.jpg" alt="Nathália" width="30%"/></a>
-        </div>
-    </div>
-    <br>
-    <footer>
-        <div class="dev">
-            <p><b>Entre em contato comigo</b></p>
-            <p class="contato">Email: nathaliavcouto@gmail.com</p>
-        </div>
-    </footer>
-    -->
 
     <script src="https://kit.fontawesome.com/20182fea58.js" crossorigin="anonymous"></script>
+    <script>
+        document.getElementById('emailForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const email = 'nathaliavcouto@gmail.com';
+            const subject = document.getElementById('email').value + " - " + document.getElementById('name').value;
+            const message = document.getElementById('message').value;
+            
+            window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+        });
+    </script>
 </body>
 </html>

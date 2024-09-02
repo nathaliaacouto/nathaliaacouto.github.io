@@ -1,0 +1,187 @@
+:root{
+    --pink: #F6DCE9;
+    --purple: #B0ADE4;
+    --background: #EEEEEE;
+}
+
+.first-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
+
+    .first-title {
+        position: relative;
+        left: 13%;
+        h1 {
+            font-size: 120px;
+        }
+    }
+
+    .my-image {
+        img {
+            width: 470px;
+            height: 556px;
+            object-fit: cover;
+        }
+    }
+}
+
+.main-content {
+    margin-top: 50px;
+    margin-left: 60px;
+
+    .floating-elements {
+        display: flex;
+
+        .floating-left {
+            width: 60%;
+
+            .about-me {
+                background-color: var(--pink);
+                border-radius: 10px;
+                height: 380px;
+                padding: 30px;
+                margin-bottom: 20px;
+                margin-right: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        
+            .qualifications {
+                background-color: var(--purple);
+                height: 380px;
+                padding: 30px;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                margin-right: 30px;
+            }
+        }
+
+        .floating-right {
+            width: 37%;
+
+            .social-media {
+                background-color: white;
+                height: 250px;
+                padding:  20px 30px;
+                border-radius: 10px;
+                margin-bottom: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                .social-media-item {
+                    margin: 15px;
+                }
+            }
+
+            .programming-languages {
+                background-color: var(--pink);
+                height: 540px;
+                padding: 20px 30px;
+                border-radius: 10px;
+                margin-bottom: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                img {
+                    display: block;
+                    margin: 20px;
+                    width: 15%;
+                }
+            }
+        }
+    }
+
+    .projects {
+        background-color: white;
+        width: 92%;
+        height: 380px;
+        padding: 20px 30px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+
+        .project-text {
+            margin-top: 25px;
+        }
+
+        .text-link:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .contact-form {
+        background-color: var(--purple);
+        width: 92%;
+        height: 380px;
+        padding:  20px 30px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+
+        .form-input {
+            border-radius: 5px;
+            width: 530px;
+            height: 20px;
+            border: none;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .form-textarea {
+            border-radius: 5px;
+            width: 530px;
+            border: none;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-family: 'Arial';
+        }
+
+        .submit-btn {
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 10px;
+        }
+    }
+}
+
+body{
+    background-color: var(--background);
+    color: black;
+    font-family: 'Epilogue';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* barra de navegação */
+.navbar {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li {
+        display: inline;
+        float: right;
+    }
+    
+    li a {
+        display: block;
+        padding: 5px;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        text-decoration: underline;
+    }
+}
+/*barra de navegação*/
