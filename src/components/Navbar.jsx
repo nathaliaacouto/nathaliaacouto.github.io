@@ -1,6 +1,6 @@
 import React from "react";
 import StarIcon from "./icons/StarIcon";
-import ArrowUpRightIcon from "./icons/ArrowUpRightIcon";
+import ArrowUpRightIcon from "./icons/ArrowUpIcon";
 
 function Navbar({ lang, setLang, currentPage, setCurrentPage, t }) {
   return (
