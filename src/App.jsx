@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { translationDict } from "./locales/translation";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 import HomePage from "./components/HomePage";
 import AboutPage from "./components/AboutPage";
 
